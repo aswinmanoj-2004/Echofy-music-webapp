@@ -1,0 +1,36 @@
+# Node / Frontend
+frontend/node_modules/
+frontend/dist/
+
+# Backend Node modules
+backend/bin/node_modules/
+frontend/.env
+frontend/.env.local
+frontend/.env.*.local
+
+# PHP / Backend
+backend/.env
+backend/config/db.php
+config/config.php
+
+# Composer
+vendor/
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Large media files (optional - remove if you want to track them)
+*.mp3
+*.wav
+*.flac
+*.ogg
+artist.jpg
